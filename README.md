@@ -1,1 +1,4 @@
 # rumor-simulation
+This is an agent based simulation I created to model the spread of a rumor for a mathematical modeling class taught by David Meyer at UC San Diego. Like many modern attempts to model the spread of a rumor, my simulation draws inspiration from Daley and Kendall's model which they first published in 1965. DK based their model off leading epidemic models that existed at the time. 
+
+Similar to DK's model, my model has three classes of people: ignorants, spreaders and stiflers. At the beginning of the simulation, one person, the “bully” starts a rumor about the  “victim”. The people in the population then randomly interact with each other and how the rumor is spread throughout the population is tracked. How the rumor is spread is dependent on people's predetermined reputation and a shock factor that describes how preposterous the rumor is. For an exact explanation of how my model works, please read the report that I have attached above. 
